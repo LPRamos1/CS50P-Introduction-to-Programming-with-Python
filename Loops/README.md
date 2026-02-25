@@ -1,0 +1,3 @@
+- plate.py - A program to validate license plates based on specific requirements, demonstrating complex string analysis and conditional logic.
+- nutrition.py - Utilizes Python dictionaries to efficiently look up and display nutritional information for various items
+- camel.py - A script that converts variable names from camelCase to snake_case, focusing on string iteration and character manipulation
