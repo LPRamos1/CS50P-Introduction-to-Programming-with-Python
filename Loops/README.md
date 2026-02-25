@@ -1,3 +1,5 @@
+Week 2 - Loops
+
 This week focuses on iteration and data manipulation. Below are the key projects:
 
 * **' plate.py'**: A program to validate license plates based on specific requirements, demonstrating complex string analysis and conditional logic.
