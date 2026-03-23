@@ -31,5 +31,3 @@ This module introduces the concept of automated software testing. The focus is o
 To run all tests in this directory, ensure you have `pytest` installed and execute:
 ```bash
 pytest .
-
----
