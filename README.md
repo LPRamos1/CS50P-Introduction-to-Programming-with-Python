@@ -27,16 +27,17 @@ The curriculum is organized by modules, each focusing on a specific core concept
 
 ---
 
-## 🚀 Final Project (Week 9)
+## 🏆 Featured: Final Project (Module 09)
 
-The [**`09_Project`**](./09_Project) directory contains the final capstone project for this course. It represents the application of everything learned, featuring:
+### [IP Analyzer](https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python/tree/main/09_Project)
+A high-performance CLI tool developed to automate the extraction and geolocation of IPv4 addresses from massive log files (`.json`, `.csv`, `.log`, `.txt`).
 
-* **Data Fetching:** Using the `requests` library to interact with external APIs.
-* **Validation:** Ensuring data consistency with **Pydantic** models.
-* **Reliability:** Maintaining code quality through unit tests and type hinting (**Mypy**).
-* **Environment:** Managed dependencies via a `requirements.txt` file.
+**Why it matters:**
+* **Advanced Regex:** Implements a "Flatten and Extract" strategy to find IPs even inside deeply nested JSON structures.
+* **Production-Ready Logic:** Features batch API processing (50 IPs/request) with built-in **Rate Limiting** to ensure compliance with external service provider's terms.
+* **Professional Testing:** 100% test coverage using `pytest`, featuring **Mocking** and **Monkeypatching** to simulate network responses and file systems.
+* **UI/UX:** Generates clean, tabulated reports with automatic text wrapping for terminal visualization.
 
----
 
 ## 🛠️ Tech Stack & Tools
 
