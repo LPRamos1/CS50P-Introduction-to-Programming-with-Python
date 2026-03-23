@@ -52,4 +52,13 @@ The [**`09_Project`**](./09_Project) directory contains the final capstone proje
 **CS50P** is an entry-level course that teaches students how to program with Python. It covers not just the language syntax, but also how to read documentation, debug code, and follow Pythonic best practices (PEP 8).
 
 ---
+
+## ▶️ Licenses
+
+You may see and test the codes as you please, but you shall not copy, reproduce or implement it for your personal use.
+
+> [!CAUTION]
+> **Academic Integrity:** All the Problem Sets codes and descriptions are a property of Harvard's edX CS50p's Introduction to Programming with Python course. This repository is intended for portfolio and educational documentation only.
+
+
 *Open for feedback and learning opportunities! Connect with me on [LinkedIn](SUA_URL_DO_LINKEDIN_AQUI).*
