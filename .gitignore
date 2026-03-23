@@ -11,7 +11,3 @@ ENV/
 
 # VS Code
 .vscode/
-
-# Project specific
-*.csv
-*.log
