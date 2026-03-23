@@ -33,4 +33,3 @@ To run all tests in this directory, ensure you have `pytest` installed and execu
 pytest .
 
 ---
-*Part of my learning journey in Harvard's CS50P.*
