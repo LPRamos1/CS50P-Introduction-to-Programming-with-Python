@@ -22,7 +22,7 @@ The **IP Analyzer** is a command-line capstone project for CS50P. It extracts, v
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<LPRamos1>/CS50P-Introduction-to-Programming-with-Python.git
+git clone https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python.git
 cd CS50P-Introduction-to-Programming-with-Python/09_Project
 pip install -r requirements.txt
 ```
