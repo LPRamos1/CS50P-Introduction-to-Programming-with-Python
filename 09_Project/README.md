@@ -1,5 +1,5 @@
 # IP Analyzer
-#### Video Demo: <Link>
+#### Video Demo: <[Link](https://www.youtube.com/watch?v=MsgaPhHCTs4)>
 
 ## 📌 Overview
 The **IP Analyzer** is a command-line capstone project for CS50P. It extracts, validates, and geolocates IPv4 addresses from multiple file formats, turning raw logs into readable technical reports.
