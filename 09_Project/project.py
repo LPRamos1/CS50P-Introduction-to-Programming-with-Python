@@ -144,7 +144,7 @@ def report(ip_details):
     )
 
 
-def main():
+def main() -> None:
     path = validate_input()
     valid_ip_list = ip_info(path)
 
