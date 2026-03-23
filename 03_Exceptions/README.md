@@ -26,9 +26,5 @@ A tool that organizes a grocery list alphabetically and counts item frequency.
 A script that converts middle-endian dates (e.g., September 8, 1636) to ISO 8601 format (YYYY-MM-DD).
 * **Technical Focus:** Advanced exception handling during string parsing to manage multiple date formats.
 
-### 5. Shorten (`short.py`)
-A program designed to remove specific characters (vowels) from a string to "shorten" the text.
-* **Technical Focus:** Iterative string manipulation combined with conditional logic to filter character sets.
-
 ---
 *Part of my learning journey in Harvard's CS50P.*
