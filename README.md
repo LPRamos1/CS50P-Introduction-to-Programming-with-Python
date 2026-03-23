@@ -10,20 +10,20 @@ This repository contains my progress and projects for **CS50P**, Harvard Univers
 
 ## 📂 Repository Structure
 
-The curriculum is organized by weeks, focusing on specific domains of the Python language:
+The curriculum is organized by modules, each focusing on a specific core concept of the Python language:
 
-| Folder | Focus |
+| Module | Core Topics |
 | :--- | :--- |
-| **00_Functions_Variables** | Functions, arguments, and basic data types. |
-| **01_Conditionals** | Logic gates and control flow. |
-| **02_Loops** | While/For loops and list/dict manipulations. |
-| **03_Exceptions** | Error handling and user input validation. |
-| **04_Libraries** | Working with external modules and APIs. |
-| **05_Unit_Tests** | Writing tests for pre-existing code with Pytest. |
-| **06_File_IO** | Reading/Writing CSV and binary files. |
-| **07_Regular_Expressions** | Pattern matching and data extraction. |
-| **08_OOP** | Object-Oriented Programming: Classes and Methods. |
-| **09_Project** | **Capstone Project: Final implementation.** |
+| [**00 - Functions & Variables**](./00_Functions_Variables) | Functions, arguments, and basic data types. |
+| [**01 - Conditionals**](./01_Conditionals) | Logic gates, if/else statements, and control flow. |
+| [**02 - Loops**](./02_Loops) | While and For loops, and list/dictionary manipulations. |
+| [**03 - Exceptions**](./03_Exceptions) | Professional error handling and user input validation. |
+| [**04 - Libraries**](./04_Libraries) | Working with external modules and third-party APIs. |
+| [**05 - Unit Tests**](./05_Unit_Tests) | Writing automated tests for code reliability using **Pytest**. |
+| [**06 - File IO**](./06_File_IO) | Reading and writing CSV and binary files. |
+| [**07 - Regular Expressions**](./07_Regular_Expressions) | Pattern matching and advanced data extraction (Regex). |
+| [**08 - OOP**](./08_OOP) | Object-Oriented Programming: Classes, Methods, and Properties. |
+| [**09 - Final Project**](./09_Project) | **Capstone Project:** Integrating all learned concepts. |
 
 ---
 
