@@ -15,7 +15,7 @@ def validate(ip):
     if not re.search(r"^((0|[1-9]\d{0,2})\.){3}(0|[1-9]\d{0,2})$", ip):
         return False
     for p in ip.split("."):
-        # Validade that each number is no larger than 255
+        # Validate that each number is no larger than 255
         if int(p) > 255:
             return False
     return True

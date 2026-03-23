@@ -10,13 +10,13 @@ This initial module focuses on the basics of Python syntax, focusing on user inp
 
 ## 📂 Included Programs
 
-### 1. Einstein (`einstein.py`)
+### 1. Einstein (`einstein/einstein.py`)
 A program that calculates energy based on mass using the famous formula $E = mc^2$. 
 * **Input:** Mass as an integer (in kilograms).
 * **Output:** Equivalent energy in Joules.
 * **Technical Focus:** Demonstrates how Python handles large integers and basic arithmetic.
 
-### 2. Tip Calculator (`tip.py`)
+### 2. Tip Calculator (`tip/tip.py`)
 A practical script to calculate the appropriate tip for a meal.
 * **Input:** Price of the meal (e.g., `$50.00`) and the tip percentage (e.g., `15%`).
 * **Output:** The calculated tip amount formatted as a float.

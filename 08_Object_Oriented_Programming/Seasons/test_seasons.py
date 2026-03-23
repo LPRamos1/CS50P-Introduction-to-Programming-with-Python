@@ -10,7 +10,7 @@ def test_minutes_calculation():
     p = HowOld(birth, today)
     assert p.calculate_minutes() == 525600
 
-    # 2 Years with lear year
+    # 2 Years with leap year
     birth_leap = "2020-01-01"
     today_leap = date(2022, 1, 1)
     p_leap = HowOld(birth_leap, today_leap)

@@ -12,28 +12,24 @@ This module introduces the concept of automated software testing. The focus is o
 ## 📂 Included Programs & Tests
 
 ### 1. Back to the Bank
-* **Files:** `bank.py` / `test_bank.py`
+* **Files:** `bank/bank.py` & `bank/test_bank.py`
 * **Technical Focus:** Testing string matching logic for greetings. Ensures that variations in capitalization and spacing return the correct monetary values ($0, $20, or $100).
 
 ### 2. Re-requesting a Feast
-* **Files:** `twttr.py` / `test_twttr.py`
+* **Files:** `twttr/twttr.py` & `twttr/test_twttr.py`
 * **Technical Focus:** Verifying vowel-removal logic. Tests include strings with all uppercase, all lowercase, numbers, and punctuation to ensure only vowels are stripped.
 
 ### 3. Refueling
-* **Files:** `fuel.py` / `test_fuel.py`
+* **Files:** `fuel/fuel.py` & `fuel/test_fuel.py`
 * **Technical Focus:** Testing numerical conversions and error handling. Uses `pytest.raises` to ensure that non-numeric inputs or zero denominators trigger the appropriate exceptions.
 
 ### 4. Re-reading the Vanity Plates
-* **Files:** `plates.py` / `test_plates.py`
+* **Files:** `plates/plates.py` & `plates/test_plates.py`
 * **Technical Focus:** Validation of complex business rules. Tests the placement of numbers, minimum/maximum lengths, and prohibited punctuation in license plate strings.
 
 ## 🛠️ How to Run Tests
 To run all tests in this directory, ensure you have `pytest` installed and execute:
 ```bash
-
 pytest .
-<<<<<<< HEAD
-=======
+```
 
----
->>>>>>> 641b663 (docs: sync all readmes and resolve conflicts)

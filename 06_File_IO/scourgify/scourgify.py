@@ -14,7 +14,7 @@ def main():
     output_file = Path(sys.argv[2])
 
     # Validate file extension
-    if input_file.suffix != ".csv" or input_file.suffix != ".csv":
+    if input_file.suffix != ".csv":
         sys.exit("Not a CSV file")
 
     # Execution with error treatment
@@ -31,14 +31,14 @@ def first_last_name(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as infile:
         reader = csv.DictReader(infile)
         with open(output_path, "w", newline="", encoding="utf-8") as outfile:
-            # New Header in the specifed order
+            # New Header in the specified order
             fieldname = ["first", "last", "house"]
             new_data = csv.DictWriter(outfile, fieldnames=fieldname)
             new_data.writeheader()
 
             for row in reader:
                 # Expected format is "fast name, first name".
-                # Split to separete fast and first names.
+                # Split to separate fast and first names.
                 last, first = row["name"].split(", ")
                 new_data.writerow({"first": first, "last": last, "house": row["house"]})
 

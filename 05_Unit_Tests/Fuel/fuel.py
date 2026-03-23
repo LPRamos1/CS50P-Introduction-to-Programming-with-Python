@@ -6,6 +6,7 @@ def main():
             percentage = convert(user_input)
             # Get the formatted gauge output
             result = gauge(percentage)
+            print(result)
             break
         except (ValueError, ZeroDivisionError):
             pass
@@ -31,11 +32,11 @@ def gauge(percentage):
     """Return the status of the fuel tank as a string:
     'E' for <= 1%, 'F' for >= 99%, or the percentage value."""
     if percentage <= 1:
-        print(f"E")
+        return(f"E")
     elif percentage >= 99:
-        print(f"F")
+        return(f"F")
     else:
-        print(f"{percentage}%")
+        return(f"{percentage}%")
 
 
 if __name__ == "__main__":

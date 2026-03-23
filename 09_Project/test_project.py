@@ -118,7 +118,7 @@ def test_get_ip_details_batching(monkeypatch):
     and aggregates results from multiple API calls.
     """
 
-    # 1. Config: Creates a list of 120 IPs (test batchs of 50)
+    # 1. Config: Creates a list of 120 IPs (test batches of 50)
     mock_ips = [f"1.1.1.{i}" for i in range(120)]
 
     # 2. Mock API response:

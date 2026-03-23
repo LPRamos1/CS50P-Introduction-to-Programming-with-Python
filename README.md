@@ -4,62 +4,106 @@
 ![CS50P](https://img.shields.io/badge/CS50P-Harvard-white?style=for-the-badge&logo=harvard&logoColor=red)
 ![Testing](https://img.shields.io/badge/Tested%20with-Pytest-0A9EDC?style=for-the-badge&logo=pytest)
 
-This repository contains my progress and projects for **CS50P**, Harvard University's introductory course to programming with Python. Throughout the course, I developed a solid foundation in Python, moving from basic syntax to more structured software development practices.
+Welcome to my portfolio for **CS50P**, Harvard University's introduction to Python programming. This repository presents a beginner-to-intermediate progression with tested projects—documenting my journey from learning core syntax to tackling practical programming tasks, building tested scripts, and working with APIs.
 
 ---
 
 ## 📂 Repository Structure
 
-The curriculum is organized by modules, each focusing on a specific core concept of the Python language:
+The curriculum is organized into modules, each focusing on a core computer science concept applied through Python:
 
-| Module | Core Topics |
-| :--- | :--- |
-| [**00 - Functions & Variables**](./00_Functions_Variables) | Functions, arguments, and basic data types. |
-| [**01 - Conditionals**](./01_Conditionals) | Logic gates, if/else statements, and control flow. |
-| [**02 - Loops**](./02_Loops) | While and For loops, and list/dictionary manipulations. |
-| [**03 - Exceptions**](./03_Exceptions) | Professional error handling and user input validation. |
-| [**04 - Libraries**](./04_Libraries) | Working with external modules and third-party APIs. |
-| [**05 - Unit Tests**](./05_Unit_Tests) | Writing automated tests for code reliability using **Pytest**. |
-| [**06 - File IO**](./06_File_IO) | Reading and writing CSV and binary files. |
-| [**07 - Regular Expressions**](./07_Regular_Expressions) | Pattern matching and advanced data extraction (Regex). |
-| [**08 - OOP**](./08_OOP) | Object-Oriented Programming: Classes, Methods, and Properties. |
-| [**09 - Final Project**](./09_Project) | **Capstone Project:** Integrating all learned concepts. |
+| Module | Core Topics | Key Learning |
+| :--- | :--- | :--- |
+| [**00 - Functions & Variables**](./00_Functions_Variables) | Arguments, return values, and primitive types. | Code modularization. |
+| [**01 - Conditionals**](./01_Conditionals) | Logic gates, if/else statements, control flow. | Decision-making logic. |
+| [**02 - Loops**](./02_Loops) | Iteration, lists, and dictionary manipulation. | Efficient data traversal. |
+| [**03 - Exceptions**](./03_Exceptions) | Try/Except blocks, input validation. | Defensive programming. |
+| [**04 - Libraries**](./04_Libraries) | Third-party APIs and built-in modules. | Extending functionality. |
+| [**05 - Unit Tests**](./05_Unit_Tests) | Writing robust tests with **Pytest**. | Test-Driven Development (TDD). |
+| [**06 - File IO**](./06_File_IO) | Persistence: CSV and file manipulation. | Data management. |
+| [**07 - Regular Expressions**](./07_Regular_Expressions) | Advanced pattern matching (Regex). | String data extraction. |
+| [**08 - OOP**](./08_Object_Oriented_Programming) | Classes, Encapsulation, and Properties. | System design fundamentals. |
+| [**09 - Final Project**](./09_Project) | **Capstone:** End-to-end project synthesis. | Putting all skills together. |
 
 ---
 
-## 🏆 Featured: Final Project (Module 09)
+## 🏆 Featured Project: IP Analyzer (Capstone)
 
-### [IP Analyzer](https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python/tree/main/09_Project)
-A CLI tool developed to automate the extraction and geolocation of IPv4 addresses from massive log files (`.json`, `.csv`, `.log`, `.txt`).
+### [Explore the Project Here](./09_Project)
 
-**Why it matters:**
-* **Advanced Regex:** Implements a "Flatten and Extract" strategy to find IPs even inside deeply nested JSON structures.
-* **Production-Ready Logic:** Features batch API processing (50 IPs/request) with built-in **Rate Limiting** to ensure compliance with external service provider's terms.
-* **Professional Testing:** 100% test coverage using `pytest`, featuring **Mocking** and **Monkeypatching** to simulate network responses and file systems.
-* **UI/UX:** Generates clean, tabulated reports with automatic text wrapping for terminal visualization.
+A command-line capstone project that extracts, validates, and geolocates IPv4 addresses from `.json`, `.csv`, `.log`, and `.txt` files.
+
+### Overview
+The project is designed as an end-to-end CLI workflow: input validation, IP extraction, API integration, and terminal reporting.
+
+### Key Features
+* **Hybrid extraction pipeline:** Regex finds potential IPv4s, then Python logic validates octets (`0-255`).
+* **JSON-safe approach:** Nested JSON data is flattened to text before extraction.
+* **Batch API requests:** Up to 50 IPs per request using `requests`, with delay control between batches.
+* **Readable output:** Results are displayed in a formatted table using `tabulate`.
 
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Setup, Run, and Tests
+
+### 1. Setup
+```bash
+git clone https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python.git
+cd CS50P-Introduction-to-Programming-with-Python
+python -m venv venv
+```
+
+Activate the virtual environment:
+```bash
+source venv/bin/activate      # Linux / macOS
+venv\Scripts\activate         # Windows
+```
+
+Install dependencies:
+```bash
+pip install -r 09_Project/requirements.txt
+```
+
+### 2. Run
+```bash
+python 09_Project/project.py 09_Project/logs/acess.log
+```
+
+### 3. Tests
+```bash
+pytest 09_Project/
+```
+
+### Design Decisions
+* Keep extraction logic modular (`ip_info`, `_extract_from_regex`, `_extract_from_json`) for readability and easier testing.
+* Use `pytest` with monkeypatching and mocking to isolate filesystem and API behavior.
+* Favor clarity and reliability over unnecessary complexity, consistent with a CS50P-level capstone.
+
+
+## 🛠️ Tech Stack & Skills
 
 * **Language:** Python 3.12+
-* **Version Control:** Git & GitHub
-* **Testing & Quality:** Pytest, Mypy, Pydantic.
-* **Environment:** Developed using VS Code (Visual Studio Code).
+* **Testing:** Pytest (Unit testing, Mocking, Test Coverage)
+* **Architecture:** Object-Oriented Programming (OOP), Functional Programming
+* **Dev Tools:** Git/GitHub, Visual Studio Code
+* **Core Libraries:** `requests` (API), `pathlib` (File System), `re` (Regex), `json`, `tabulate`.
 
 ---
 
-## 🎓 About the Course
+## 📜 Academic Integrity & License
 
-**CS50P** is an entry-level course that teaches students how to program with Python. It covers not just the language syntax, but also how to read documentation, debug code, and follow Pythonic best practices (PEP 8).
+> [!IMPORTANT]
+> **Academic Honesty:** This repository is intended for portfolio demonstration and educational documentation only. In accordance with Harvard University's CS50 Academic Honesty policy, these solutions should **not** be used to complete assignments. 
+> 
+> All problem set specifications and base codes are property of Harvard University's CS50P course.
 
 ---
 
-## ▶️ Licenses
+## 🎓 About the Certification
 
-You may see and test the codes as you please, but you shall not copy, reproduce or implement it for your personal use.
+**CS50P** goes beyond syntax, emphasizing how to read documentation, debug, and adopt Pythonic best practices (PEP 8). This repository demonstrates my ability to write clean, maintainable, and documented code as part of a structured, beginner-to-intermediate curriculum.
 
-> [!CAUTION]
-> **Academic Integrity:** All the Problem Sets codes and descriptions are a property of Harvard's edX CS50p's Introduction to Programming with Python course. This repository is intended for portfolio and educational documentation only.
+---
 
 
-*Open for feedback and learning opportunities! Connect with me on [LinkedIn](SUA_URL_DO_LINKEDIN_AQUI).*
+* **LinkedIn:** [Your LinkedIn Profile URL](https://www.linkedin.com/in/)
+* **Email:** [your-email@example.com](@example.com)

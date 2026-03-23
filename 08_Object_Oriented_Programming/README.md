@@ -13,17 +13,17 @@ This module introduces the principles of Object-Oriented Programming in Python. 
 ## 📂 Included Programs & Tests
 
 ### 1. Seasons of Love
-* **Files:** `seasons.py` / `test_seasons.py`
+* **Files:** (`seasons/seasons.py` & `seasons/test_seasons.py`)
 * **Technical Focus:** Working with the `datetime` module to calculate the difference between dates.
 * **Logic:** Converts a lifespan into minutes and outputs the result in words using the `inflect` library.
 
 ### 2. Cookie Jar
-* **Files:** `jar.py` / `test_jar.py`
+* **Files:** (`jar/jar.py` & `jar/test_jar.py`)
 * **Technical Focus:** Building a class from scratch with capacity constraints.
 * **Logic:** Implements methods to `deposit` and `withdraw` cookies, while using `@property` to manage the jar's current size and maximum capacity.
 
 ### 3. CS50 Shirtificate
-* **Files:** `shirtificate.py`
+* **Files:** (`shirtificate/shirtificate.py`)
 * **Technical Focus:** Programmatic PDF creation using the `fpdf2` library.
 * **Logic:** Generates a custom PDF certificate with a centered image and personalized text overlay.
 
@@ -31,3 +31,4 @@ This module introduces the principles of Object-Oriented Programming in Python. 
 To verify the class logic and date calculations:
 ```bash
 pytest .
+```

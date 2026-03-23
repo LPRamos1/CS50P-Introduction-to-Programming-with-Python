@@ -10,17 +10,17 @@ This module focuses on implementing decision-making logic in Python. These exerc
 
 ## 📂 Included Programs
 
-### 1. Deep Thought (`deep.py`)
+### 1. Deep Thought (`deep/deep.py`)
 A script that validates the answer to the "Great Question of Life, the Universe, and Everything."
 * **Logic:** Accepts "42", "forty-two", or "forty two" as valid answers.
 * **Technical Focus:** Case-insensitivity and handling variations in string input.
 
-### 2. Math Interpreter (`interpreter.py`)
+### 2. Math Interpreter (`interpreter/interpreter.py`)
 A simple command-line calculator that parses and solves basic arithmetic expressions.
 * **Logic:** Processes a string like `x y z` (e.g., `1 + 1`) and outputs the result as a float.
 * **Technical Focus:** String splitting and basic arithmetic execution via conditional branching.
 
-### 3. Meal Time (`meal.py`)
+### 3. Meal Time (`meal/meal.py`)
 A tool that determines if it is time for breakfast, lunch, or dinner based on a 24-hour clock.
 * **Logic:** Converts a time string (e.g., `7:30`) into a float to check against specific mealtime windows.
 * **Technical Focus:** Time-to-float conversion and range-based conditional logic.

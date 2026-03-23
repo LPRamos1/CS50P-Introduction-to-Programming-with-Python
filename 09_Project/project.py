@@ -137,11 +137,10 @@ def report(ip_details):
             )
     headers = ["IP ADDRESS", "CITY", "REGION", "CONTINENT", "ORGANIZATION"]
     widths = [None, None, None, None, 25]
-    return print(
-        tabulate(
+    return tabulate(
             table_data, headers=headers, tablefmt="fancy_grid", maxcolwidths=widths
         )
-    )
+    
 
 
 def main() -> None:
@@ -154,8 +153,9 @@ def main() -> None:
     print(f"Found {len(valid_ip_list)} unique IPs. Starting analysis...")
 
     ip_details = get_ip_details(valid_ip_list)
-
-    report(ip_details)
+    
+    output_table = report(ip_details)
+    print(output_table)
 
 
 if __name__ == "__main__":

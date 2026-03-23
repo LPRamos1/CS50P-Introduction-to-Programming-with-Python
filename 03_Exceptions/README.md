@@ -10,19 +10,19 @@ This module focuses on writing robust Python code by handling runtime errors and
 
 ## 📂 Included Programs
 
-### 1. Fuel Gauge (`fuel.py`)
+### 1. Fuel Gauge (`fuel/fuel.py`)
 A program that calculates fuel percentage from a fraction (X/Y).
 * **Technical Focus:** Catching `ValueError` and `ZeroDivisionError` to ensure the denominator is valid and the input is numeric.
 
-### 2. Felipe’s Taqueria (`taqueria.py`)
+### 2. Felipe’s Taqueria (`taqueria/taqueria.py`)
 A point-of-sale system that enables users to place orders from a menu.
 * **Technical Focus:** Handling `KeyError` when an item isn't on the menu and using `EOFError` to finish the order.
 
-### 3. Grocery List (`grocery.py`)
+### 3. Grocery List (`grocery/grocery.py`)
 A tool that organizes a grocery list alphabetically and counts item frequency.
 * **Technical Focus:** Using dictionaries to store counts and handling input termination via `EOFError`.
 
-### 4. Outdated (`outdated.py`)
+### 4. Outdated (`outdated/outdated.py`)
 A script that converts middle-endian dates (e.g., September 8, 1636) to ISO 8601 format (YYYY-MM-DD).
 * **Technical Focus:** Advanced exception handling during string parsing to manage multiple date formats.
 

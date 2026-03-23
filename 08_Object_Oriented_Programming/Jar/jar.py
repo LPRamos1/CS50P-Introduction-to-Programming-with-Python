@@ -6,7 +6,7 @@ class Jar:
     def __init__(self, capacity=12):
         if capacity < 0:
             raise ValueError
-        self.capacity = capacity
+        self._capacity = capacity
         self._size = 0
 
     def __str__(self):
@@ -18,13 +18,13 @@ class Jar:
         self._size += n
 
     def withdraw(self, n):
-        if n - self.size < 0:
+        if n > self.size:
             raise ValueError("Not enough cookies in the jar!")
         self._size -= n
 
     @property
     def capacity(self):
-        return self.capacity
+        return self._capacity
 
     @property
     def size(self):

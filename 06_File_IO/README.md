@@ -11,19 +11,19 @@ This module focuses on persistent data storage and manipulation. The exercises d
 
 ## 📂 Included Programs
 
-### 1. Lines of Code (`lines.py`)
+### 1. Lines of Code (`lines/lines.py`)
 A program that counts the number of "lines of code" in a Python file, excluding comments and blank lines.
 * **Technical Focus:** File reading, string stripping, and logic to ignore non-code lines.
 
-### 2. Pizza Py (`pizza.py`)
+### 2. Pizza Py (`pizza/pizza.py`)
 A tool that reads a CSV file containing pizza menu data and outputs a formatted table.
 * **Technical Focus:** Using the `tabulate` library to transform raw CSV data into a clean, human-readable ASCII table.
 
-### 3. Scourgify (`scourgify.py`)
+### 3. Scourgify (`scourgify/scourgify.py`)
 A data cleaning script that reads a CSV file with "Name, House" (where name is "Last, First") and writes a new CSV with "first, last, house".
 * **Technical Focus:** Simultaneous reading and writing of CSV files (`csv.DictReader` and `csv.DictWriter`) to restructure data.
 
-### 4. CS50 P-Shirt (`shirt.py`)
+### 4. CS50 P-Shirt (`shirt/shirt.py`)
 An image processing script that overlays a virtual t-shirt onto a user-provided photo.
 * **Technical Focus:** Using the `PIL` (Pillow) library for image resizing, cropping, and pasting (overlaying) with transparency.
 
