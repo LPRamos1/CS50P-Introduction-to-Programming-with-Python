@@ -105,5 +105,5 @@ pytest 09_Project/
 ---
 
 
-* **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/)
-* **Email:** [email@example.com](lucaspaolo.dev@gmail.com)
+* **LinkedIn:** [not set](https://www.linkedin.com/in/)
+* **Email:** [lucaspaolo.dev@gmail.com](lucaspaolo.dev@gmail.com)
