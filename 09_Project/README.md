@@ -1,6 +1,5 @@
 # IP Analyzer
 #### Video Demo: <Link>
-#### Description:
 
 ## 📌 Description
 The **IP Analyzer** is a command-line tool designed to simplify the process of extracting, validating, and geolocating IPv4 addresses from various file formats. Developed as a final project for Harvard's CS50P, this tool bridges the gap between raw log data and actionable geographical insights.
