@@ -30,7 +30,7 @@ The curriculum is organized by modules, each focusing on a specific core concept
 ## 🏆 Featured: Final Project (Module 09)
 
 ### [IP Analyzer](https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python/tree/main/09_Project)
-A high-performance CLI tool developed to automate the extraction and geolocation of IPv4 addresses from massive log files (`.json`, `.csv`, `.log`, `.txt`).
+A CLI tool developed to automate the extraction and geolocation of IPv4 addresses from massive log files (`.json`, `.csv`, `.log`, `.txt`).
 
 **Why it matters:**
 * **Advanced Regex:** Implements a "Flatten and Extract" strategy to find IPs even inside deeply nested JSON structures.
