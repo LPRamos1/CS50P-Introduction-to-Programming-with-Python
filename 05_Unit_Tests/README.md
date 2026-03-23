@@ -30,4 +30,10 @@ This module introduces the concept of automated software testing. The focus is o
 ## 🛠️ How to Run Tests
 To run all tests in this directory, ensure you have `pytest` installed and execute:
 ```bash
+
 pytest .
+<<<<<<< HEAD
+=======
+
+---
+>>>>>>> 641b663 (docs: sync all readmes and resolve conflicts)
