@@ -105,5 +105,5 @@ pytest 09_Project/
 ---
 
 
-* **LinkedIn:** [Your LinkedIn Profile URL](https://www.linkedin.com/in/)
-* **Email:** [your-email@example.com](@example.com)
+* **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/)
+* **Email:** [email@example.com](lucaspaolo.dev@gmail.com)
