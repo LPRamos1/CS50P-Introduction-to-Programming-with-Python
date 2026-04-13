@@ -105,5 +105,5 @@ pytest 09_Project/
 ---
 
 
-* **LinkedIn:** [Linkedin]([https://www.linkedin.com/in/](https://www.linkedin.com/in/lucas-paolo-ramos-16a693402/?locale=en-US))
+* **LinkedIn:** [https://www.linkedin.com/in/lucas-paolo-ramos-16a693402/?locale=en-US](Linkedin)
 * **Email:** [lucaspaolo.dev@gmail.com](lucaspaolo.dev@gmail.com)
