@@ -2,7 +2,10 @@
 #### Video Demo: <[Link](https://www.youtube.com/watch?v=MsgaPhHCTs4)>
 
 ## 📌 Overview
-The **IP Analyzer** is a command-line capstone project for CS50P. It extracts, validates, and geolocates IPv4 addresses from multiple file formats, turning raw logs into readable technical reports.
+
+IP Analyzer is a Python CLI tool designed to transform raw log files into structured network intelligence.
+
+It extracts, validates, and geolocates IPv4 addresses from multiple file formats, producing clean and readable analytical reports for debugging and network analysis.
 
 ## 🛠️ Core Functions
 - `validate_input()`: Ensures the CLI arguments are correct and the file format is supported.
