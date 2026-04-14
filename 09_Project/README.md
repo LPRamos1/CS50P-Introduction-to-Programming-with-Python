@@ -14,11 +14,12 @@ It extracts, validates, and geolocates IPv4 addresses from multiple file formats
 - `report()`: Transforms the API dictionary into a clean, tabulated terminal grid.
 
 ## 🚀 Key Features
-- **Multi-format Support:** Seamlessly processes `.txt`, `.log`, `.csv`, and `.json` files.
-- **Hybrid Validation:** Leverages both Regular Expressions (Regex) for initial pattern matching and custom Python logic to guarantee every octet is within the valid 0-255 range—ensuring only real IPv4 addresses are reported.
-- **Type Hinting:** Employs Python’s native type hints, improving code maintainability, clarity, and modern development practices.
-- **Batch Processing:** Efficiently performs IP geolocation via batch requests to the IP-API service, analyzing up to 50 IPs per request for optimal performance and compliance with API policies.
-- **Terminal Visualization:** Creates clean, professional-grade terminal reports using the `tabulate` library, with automatic text wrapping to maintain readability even for long organization names.
+
+- Multi-format log processing (.txt, .log, .csv, .json)
+- IPv4 extraction using regex + custom validation
+- Batch API geolocation (up to 50 IPs per request)
+- Clean terminal reporting with tabulate
+- Input validation and CLI safety checks
 
 ## ⚡ Setup
 
@@ -26,7 +27,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/LPRamos1/CS50P-Introduction-to-Programming-with-Python.git
-cd CS50P-Introduction-to-Programming-with-Python/09_Project
+cd ip-analyzer
 pip install -r requirements.txt
 ```
 
@@ -41,6 +42,12 @@ python project.py logs/acess.log
 ```bash
 pytest .
 ```
+## 📊 Example Output
+
+| IP Address | Country | City |
+|------------|--------|------|
+| 8.8.8.8    | USA    | Mountain View |
+
 
 ## 📂 File Structure
 - **project.py:** The main engine. Contains the orchestrator function (`ip_info`), extraction logic, and API communication layer.
